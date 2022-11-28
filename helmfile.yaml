@@ -1,0 +1,14 @@
+bases:
+- environments.yaml
+
+releases:
+- name: api
+  chart: listshop-helm/listshop-api
+  version: 1.10.2
+  values:
+  - "./config/api/values-{{ .Environment.Name }}.yaml"
+- name: web
+  chart: listshop-helm/listshop-web
+  version: 2.4.2
+  values:
+  - "./config/web/values-{{ .Environment.Name }}.yaml"

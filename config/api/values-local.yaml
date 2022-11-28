@@ -1,0 +1,4 @@
+service:
+  database:
+    url: jdbc:postgresql://4.tcp.ngrok.io:18281/dishhelm
+
