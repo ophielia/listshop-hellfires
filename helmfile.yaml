@@ -4,12 +4,11 @@ bases:
 releases:
 - name: api
   chart: listshop-helm/listshop-api
-  #version: 1.11.0
-  version: 1.11.28-i
+  version: 1.11.1
   values:
   - "./config/api/values-{{ .Environment.Name }}.yaml"
 - name: web
   chart: listshop-helm/listshop-web
-  version: 2.4.8-i
+  version: 2.4.5
   values:
   - "./config/web/values-{{ .Environment.Name }}.yaml"
