@@ -1,7 +1,6 @@
 service:
-  glowrootActivated: true
-  glowrootEnabled: true
-  #copyStaticFilesVersion: 1.0.11
+  glowrootActivated: false
+  glowrootEnabled: false
   database:
-    url: jdbc:postgresql://0.tcp.ngrok.io:15144/dishhelm
+    url: jdbc:postgresql://ls-db-postgresql:5432/listshophelm
 

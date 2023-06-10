@@ -8,3 +8,4 @@ service:
   type: ClusterIP
   port: 80
   apiUrl: http://localhost/
+  staticUrl: https://static.nastyvarmits.fr/api/
