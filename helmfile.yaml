@@ -4,7 +4,7 @@ bases:
 releases:
 - name: api
   chart: listshop-helm/listshop-api
-  version: 1.12.4
+  version: 1.12.7-4
   values:
   - "./config/api/values-{{ .Environment.Name }}.yaml"
 - name: web

@@ -4,3 +4,4 @@ service:
   glowrootEnabled: true
   database:
     url: jdbc:postgresql://134.122.18.248:5432/listshop
+
