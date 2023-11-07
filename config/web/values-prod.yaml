@@ -9,4 +9,6 @@ service:
   port: 80
   apiUrl: https://nastyvarmits.fr/api/
   staticUrl: https://static.nastyvarmits.fr/api/
-  appStoreUrl: empty
+  appStoreUrl: https://apps.apple.com/us/app/the-list-shop/id1503816743
+  facebookUrl: https://www.facebook.com/profile.php?id=100094714986746
+  twitterUrl:  https://twitter.com/TheListShopApp

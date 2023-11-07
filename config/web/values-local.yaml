@@ -10,3 +10,5 @@ service:
   apiUrl: http://localhost/
   staticUrl: https://static.nastyvarmits.fr/api/
   appStoreUrl: empty
+  facebookUrl: http://www.facebook.com
+  twitterUrl: http://www.twitter.com
